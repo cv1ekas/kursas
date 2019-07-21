@@ -9,6 +9,19 @@
 <body>
 <?php
     echo "Sveikas, pasauli!";
+ //vienos eilutės komentaras
+
+#antras būdas vienos eilutės komentarui
+
+/* keleto eilučių
+komentaras
+*/
+
+//komentaras atskiroms kodo dalims
+    $x = 5 /* + 10 */ + 5;
+echo $x;
 ?>
+
+
 </body>
 </html>
