@@ -1,0 +1,26 @@
+a:hover
+/*hover-uzvedus pelyte*/
+/*dvitaskis: po a,reiskia naudosim pseudo klase*/
+	letter spacing: 5px;
+a:active{
+	background-color: red 
+}
+a:visited{
+	color: green
+}
+a:link{
+	color: red
+}
+				table{
+					border-collapse: collapse;
+				}
+				table, tr, th, td {
+					border: 1px solid black;
+				}
+	
+border: solid black;
+}
+
+tr:nth-child(2n+3){
+	background-color: silver;
+}

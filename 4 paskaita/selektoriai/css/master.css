@@ -1,0 +1,17 @@
+*{
+	color:silver;
+	font-family: Arial;
+/*	border: 1px solid black;*/
+	/*atributo selektorius rasomas lauztiniuose skliaustuose*/
+}
+[src^="images/dog.jpg"]{
+	width: 100px;}
+/*kai einama gilyn*/
+	th, td{
+		background-color: blue;
+		}
+
+table tr:nth-child(2) td:nth-child(2){
+	background-color: red;
+}
+table tr:nth-child(2) td:nth-child(1)
