@@ -13,29 +13,37 @@
 					float: left;
 					border-radius: 50px;
 				}
-				.box:nth-child(2n+2){
-					background-color: green;
-				}<!-- 2n tai kas antras -->
+				
 				table{
+					width: 100%;
 					border-collapse: collapse;
 				}
-				table, tr, th, td {
-					border: 1px solid black;
+				table, tr, th, td{
+					border:1px solid black;
 				}
-				tr td:nth-child(2n+2){
+				tr:nth-child(2n+3){
+					background-color: silver;
+				}
+				tr:nth-child(2n+2){
 					background-color: yellow;
-			}
-				tr td:nth-
-				table tr:first-child(2)
-				
-	/*				background-color: rgba(96, 250, 0, 0.96); */
-					background-color: #60fa00;
 				}
+				tr td:nth-child(2){
+					text-align: right;
+				}
+				table tr:first-child{
+					background-color: rgba(203, 231, 187, 0.5);
+				}
+				/*hsl color picker*/
+				body{
+					background-color: #e8baba;
+				}
+			
 				
 	</style>
 </head>
 
 <body>
+	
 	<!--<div class="box"></div>
 	<div class="box"></div>
 	<div class="box"></div>
@@ -48,7 +56,7 @@
 		<tr>
 			<th>Data</th>
 			<th>Suma</th>
-			<th>Kategorijas</th>
+			<th>Kategorija</th>
 		</tr>
 		<tr>
 			<td>2019-07-01</td>
