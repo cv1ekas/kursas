@@ -3,76 +3,77 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title></title>
+	<title>pH skalė, Internal CSS</title>
 	<style>
 		table {
 			width: 100%;
+			height: 100%;
 			border-collapse: collapse;
 			}
 		body {
 			background-color: silver;
-			color: white; }
-		th {height: 80px;
+			color: white;
+			padding-left: 10px;
+			padding-right: 10px;
+			}
+		h1 {height: 50px;
 			background-color: hsla(140, 0%, 88%, 1);
 			color: gray;
-		}
+			padding-left: 15px;
+			padding-top: 15px
+			}
 
-		tr:nth-child(2) {
+		tr:nth-child(1) {
   background: hsla(223, 100%, 40%, 1);
 }
-		tr:nth-child(3) {
+		tr:nth-child(2) {
   background: hsla(223, 100%, 45%, 1);
 }
-	tr:nth-child(4) {
+		tr:nth-child(3) {
   background: hsla(223, 100%, 50%, 1);
 }
-	tr:nth-child(5) {
+		tr:nth-child(4) {
   background: hsla(223, 100%, 55%, 1);
 }
-		tr:nth-child(6) {
+		tr:nth-child(5) {
   background: hsla(223, 100%, 60%, 1);
-			}
-	tr:nth-child(7) {
+}
+		tr:nth-child(6) {
   background: hsla(223, 100%, 65%, 1);
 }
-			tr:nth-child(8) {
+		tr:nth-child(7) {
   background: hsla(223, 100%, 70%, 1);
-}
-	tr:nth-child(9) {
+		}
+	tr:nth-child(8) {
   background: hsla(144, 60%, 35%, 1);
-}
-		tr:nth-child(16) {
+		}
+	tr:nth-child(15) {
   background: hsla(342, 100%, 61%, 1)
 		}
-tr:nth-child(15) {
+	tr:nth-child(14) {
   background: hsla(342, 100%, 64%, 1)
 		}
-tr:nth-child(14) {
+tr:nth-child(13) {
   background: hsla(342, 100%, 69%, 1)
 		}
-tr:nth-child(13) {
+tr:nth-child(12) {
   background: hsla(342, 100%, 74%, 1)
 		}
-tr:nth-child(12) {
+tr:nth-child(11) {
   background: hsla(342, 100%, 80%, 1)
 		}
-tr:nth-child(11) {
+tr:nth-child(10) {
   background: hsla(342, 100%, 84%, 1)
 		}
-tr:nth-child(10) {
+tr:nth-child(9) {
   background: hsla(342, 100%, 90%, 1)
 		}
 	</style>
 
 </head>
 <body>
+	<h1>pH skalė</h1>
 	<table>
-	<tr>
-  	<h1>
-		<th>pH skalė</th>
-		</h1>
-
-	</tr>
 		<tr>
 			<td>14.0 ŠARMINIS</td>
 		</tr>
@@ -118,7 +119,6 @@ tr:nth-child(10) {
 		<tr>
 			<td>0.0 RŪGŠTINIS</td>
 		</tr>
-
 	</table>
 
 </body>
