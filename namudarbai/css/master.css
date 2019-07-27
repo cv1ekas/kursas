@@ -6,12 +6,13 @@
 	letter-spacing: 1px;
 	font-family:sans-serif;
 }
-.pasvires {font-style: italic;
+.pasvires {
+	font-style: italic;
 }
 .paryskintas {
-	 font-size:17px;
+	font-size:17px;
 	font-family:sans-serif;
-font-weight: 500;
+   font-weight: 500;
 }
 
 .antraste2 {
