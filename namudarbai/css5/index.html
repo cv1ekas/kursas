@@ -6,29 +6,28 @@
 	<title>fake skaičiuotuvas</title>
 	<style>
 		.container{
-			width: 380px;
-			height: auto;
 			text-align: center;
 		}
 
-		.ekranas{ width: 320px;
-					 height: 50px;
-					 text-align: right;
-					 font-size:180%;
-					 padding-right: 5px;
-
+		.ekranas{
+			width: 320px;
+			height: 50px;
+			text-align: right;
+			font-size:180%;
+			padding-right: 5px;
 		}
 
+/*
 		.mygtukas{
 			width: 90px;
 			height:50px;
 			font-weight: 400;
 			font-size: 170%;
-			box-shadow: 2px 2px; color: grey;
-
+			box-shadow: 1px 1px;
 		}
+*/
 
-		div {
+		div{
 			padding-left: 10px;
 			padding-top: 7px;
 
@@ -38,48 +37,47 @@
 			height:50px;
 			font-weight: 400;
 			font-size: 170%;
-		}
-		td{padding 20px;}
+			box-shadow: 1px 1px;
+			position: relative;
+			z-index:10;
 
+		}
 	</style>
 
 </head>
 
 <body>
 	<div class="container">
-    <table>
-        <tr>
-            <td class="skaiciai" colspan="3"><input type="text" class="ekranas"  value="12"></td>
-        </tr>
-       <div class="klaviatura">
+		<table>
 			<tr>
-            <td ><input type="button" class="skaicius" value="7" ></td>
-            <td><input type="button" class="skaicius" value="8"></td>
-            <td><input type="button" class="skaicius" value="9"></td>
-        </tr>
-        <tr>
-            <td><input type="button" class="skaicius" value="4"></td>
-            <td><input type="button" class="skaicius" value="5"></td>
-            <td><input type="button" class="skaicius" value="6"></td>
-        </tr>
-        <tr>
-            <td><input type="button" class="skaicius" value="1" class="skaiciai" ></td>
-            <td><input type="button" class="skaicius" value="2"></td>
-            <td><input type="button" class="skaicius" value="3"></td>
-        </tr>
-        <tr>
-            <td><input type="button" class="skaicius" value="C"></td>
-            <td><input type="button" class="skaicius" value="0"></td>
-            <td><input type="button" class="skaicius" value="CE"></td>
-		 </tr>
-		 <tr>
-            <td><input type="button" class="skaicius" value="+" ></td>
-            <td><input type="button" class="skaicius" value="-"></td>
-
-        </tr>
+				<td colspan="3"><input type="text" class="ekranas"  value="12"></td>
+			</tr>
+			<tr>
+				<td><input type="button" class="skaicius" value="7"></td>
+				<td><input type="button" class="skaicius" value="8"></td>
+				<td><input type="button" class="skaicius" value="9"></td>
+			</tr>
+			<tr>
+				<td><input type="button" class="skaicius" value="4"></td>
+				<td><input type="button" class="skaicius" value="5"></td>
+				<td><input type="button" class="skaicius" value="6"></td>
+			</tr>
+			<tr>
+				<td><input type="button" class="skaicius" value="1"></td>
+				<td><input type="button" class="skaicius" value="2"></td>
+				<td><input type="button" class="skaicius" value="3"></td>
+			</tr>
+			<tr>
+				<td class=><input type="button" class="skaicius" value="C"></td>
+				<td><input type="button" class="skaicius" value="0"></td>
+				<td><input type="button" class="skaicius" value="CE"></td>
+			</tr>
+			<tr>
+				<td><input type="button" class="skaicius" value="+" ></td>
+				<td><input type="button" class="skaicius" value="-"></td>
+			</tr>
+		</table>
 	</div>
-    </table>
-	</div>
-	</body>
+</body>
 
 </html>
