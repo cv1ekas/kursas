@@ -1,3 +1,4 @@
-function SkaiciuSuma(x, y) {
-	let SkaiciuSuma = PirmasSkaicius + AntrasSkaicius;
+function skaiciuSuma(pirmasSkaicius, antrasSkaicius) {
+	let skaiciuSuma = pirmasSkaicius + antrasSkaicius;
+	return skaiciuSuma;
 }
