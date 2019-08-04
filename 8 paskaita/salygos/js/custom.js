@@ -1,12 +1,12 @@
-//function arSkaiciusDidesnisUz10(skaicius){
-//	
-//	if(skaicius > 10){
-//		document.write("Skaicius" + skaicius + "didesnis uz 10");
-//	}
-//	
-//	else{
-//		document.write("Skaicius" + skaicius + "mazesnis uz 10");
-//	}
+function arSkaiciusDidesnisUz10(skaicius){
+	
+	if(skaicius > 10){
+		document.write("Skaicius" + skaicius + "didesnis uz 10");
+}
+	
+	else{
+		document.write("Skaicius" + skaicius + "mazesnis uz 10");
+	}
 function arSkaiciusDidesnisUz10(skaicius){
 	
 	let statusas = "";
