@@ -23,5 +23,6 @@ function duokManSiosDienosData(){
 	
 	
 	
+	
 	return pilnaData;
 }
