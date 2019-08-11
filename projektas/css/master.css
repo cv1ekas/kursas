@@ -152,7 +152,7 @@ nav ul li a{
 }
 nav ul li a:hover{
 	color: black;
-	background-color: white;
+	background-color: rgb(68, 235, 26);
 
 }
 .empty{height: 20px;}
@@ -164,8 +164,14 @@ nav ul li a:hover{
 
 .form-element{
 	margin: 5px;
+	display:grid;
 }
-h1, h2, h3, li{
+h1, h2, h3{
+	text-align: center;
+	color: darkblue;
+}
+
+li{
 	text-align: center;
 }
 .citata{
@@ -177,4 +183,16 @@ a{color: red;
 }
 .calendar{
 	text-align: center;
+}
+#more{
+	display: none;
+}
+#more2{
+	display: none;
+}
+#myBtn, #myBtn2{
+	background-color:blue;
+}
+button{
+	color: white;
 }
