@@ -21,12 +21,16 @@ function ziuretiDaugiau() {
     dots.style.display = "inline";
     btnText.innerHTML = "Rodyti daugiau";
     moreText.style.display = "none";
+
   } else {
-    dots.style.display = "none";
+
+	  dots.style.display = "none";
     btnText.innerHTML = "Rodyti mažiau";
     moreText.style.display = "inline";
   }
 }
+
+
 function ziuretiDaugiau2() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more2");
@@ -36,7 +40,8 @@ function ziuretiDaugiau2() {
     dots.style.display = "inline";
     btnText.innerHTML = "Rodyti daugiau";
     moreText.style.display = "none";
-  } else {
+  }
+	else {
     dots.style.display = "none";
     btnText.innerHTML = "Rodyti mažiau";
     moreText.style.display = "inline";
