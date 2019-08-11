@@ -56,7 +56,7 @@
 								<div class="label">Vardas:</div>
 							</div>
 							<div class="coll6">
-								<input type="text">
+								<input type="text" id="name">
 							</div>
 						</div>
 					</div>
@@ -67,7 +67,7 @@
 								<div class="label">Pavardė:</div>
 							</div>
 							<div class="coll6">
-								<input type="text">
+								<input type="text" id="surname">
 							</div>
 						</div>
 					</div>
@@ -79,7 +79,7 @@
 								<div class="label">El. paštas:</div>
 							</div>
 							<div class="coll6">
-								<input type="text">
+								<input type="text" id="email">
 							</div>
 						</div>
 					</div>
@@ -90,7 +90,7 @@
 								<div class="label">Komentaras:</div>
 							</div>
 							<div class="coll6">
-								<textarea></textarea>
+								<textarea id="komentaras"></textarea>
 							</div>
 						</div>
 					</div>
@@ -100,7 +100,7 @@
 							<div class="coll6">
 							</div>
 							<div class="coll6">
-								<input type="button" value="Siųsti">
+								<input type="button" id="siusti" value="Siųsti">
 							</div>
 						</div>
 					</div>
@@ -128,5 +128,28 @@
 			</div>
 		</div>
 	</footer>
+	<script src="css/custom.js"></script>
+	<script>
+
+		let asmenys = [];
+
+		let name = document.querySelector("#name").value;
+		let surname = document.querySelector("#surname").value;
+		let email = document.querySelector("#email").value;
+		let komentaras = document.querySelector("#komentaras").value;
+
+		letmygtukasSiusti = document.querySelector("#siusti")
+		letmygtukasSiusti.addEventListener("click", function(){
+
+		let name = document.querySelector("#name").value;
+		let surname = document.querySelector("#surname").value;
+		let email = document.querySelector("#email").value;
+		let komentaras = document.querySelector("#komentaras").value;
+
+			asmenys = padetiAsmeniIMasyva(name, surname, email, komentaras, asmenys);
+		console.log(asmenys);
+		});
+
+	</script>
 </body>
 </html>

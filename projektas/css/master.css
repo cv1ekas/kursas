@@ -190,8 +190,9 @@ a{color: red;
 #more2{
 	display: none;
 }
-#myBtn, #myBtn2{
+#myBtn, #myBtn2,#siusti{
 	background-color:blue;
+	color: white;
 }
 button{
 	color: white;

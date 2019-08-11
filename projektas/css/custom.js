@@ -1,14 +1,16 @@
-function padetiAsmeniIMasyva(vardas, pavarde, amzius, asmenys){
+function padetiAsmeniIMasyva(vardas, pavarde, email, komentaras, asmenys){
 	let asmuo = {
 		vardas: vardas,
 		pavarde: pavarde,
-		email: email
+		email: email,
+		komentaras:  komentaras
 	};
 
 	asmenys.push(asmuo);
 
 	return asmenys;
 }
+
 
 function ziuretiDaugiau() {
   var dots = document.getElementById("dots");
