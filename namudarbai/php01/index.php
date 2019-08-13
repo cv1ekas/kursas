@@ -15,6 +15,7 @@
 
 	<?php
 		echo '<ul>';
+
 		echo '<li>';
 		echo $country;
 		echo '</li>';
