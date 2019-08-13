@@ -11,7 +11,9 @@
 		$country='Lietuva';
 		$city='Vilnius';
 		$population=574221;
+	?>
 
+	<?php
 		echo '<ul>';
 		echo '<li>';
 		echo $country;
