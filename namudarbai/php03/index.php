@@ -12,5 +12,4 @@
 	echo "$x / $y = $result<br>";
 	$result = $x % $y;
 	echo "$x % $y = $result<br>";
-
-		?>
+?>
