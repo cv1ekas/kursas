@@ -15,12 +15,12 @@
 	</form>
 
 	<?php
-	if(isset($_POST['submit']))
-		{
-	$aukstis = $_POST['aukstis'];
-	$ilgis = $_POST['ilgis'];
-	$plotas = $aukstis*$ilgis;
-	echo "Stačiakampio plotas kurio kraštinės $aukstis ir $ilgis yra $plotas";
+		if(isset($_POST['submit'])){
+			$aukstis = $_POST['aukstis'];
+			$ilgis = $_POST['ilgis'];
+			$plotas = $aukstis*$ilgis;
+		echo "Stačiakampio plotas kurio kraštinės
+			$aukstis ir $ilgis yra $plotas";
 }
 	?>
 
