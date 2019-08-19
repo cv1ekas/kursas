@@ -119,6 +119,7 @@ article img, .image img{
 nav{
 	position: sticky;
 	top:0;
+	width: 10px;
 }
 
 footer, nav{
