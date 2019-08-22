@@ -6,7 +6,6 @@
     <title></title>
 </head>
     <body>
-
         <?php
         $puslapioSukurimoMetai = 2016;
         $data1 = new DateTime();
